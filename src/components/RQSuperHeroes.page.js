@@ -10,6 +10,7 @@ export const RQSuperHeroesPage = () => {
         fetchSuperHeroes,
         {
             staleTime: 30000,
+            refetchOnMount: false,
         }
     );
 
